@@ -3,6 +3,8 @@ Repository with example code for submitting a project to the Una Europa Epilepsy
 
 The challenge submissions are made through the CodaLab platform. Participants must submit 4 mandatory files and any extra scripts required to run the model's evaluation.
 
+In this repository, we include a starter pack containing the templates of the mandatory files ('starter_pack/'). Additionally, we included an example submission bundle with one of the benchmark models published in the [dataset paper]() ('submission_example.zip). Participants are required to submit the files as .zip , similar to the example.
+
 ## Mandatory files:
 - model.py
   
@@ -26,7 +28,4 @@ The challenge submissions are made through the CodaLab platform. Participants mu
 - metadata
   
   Metadata file with only a description required for the submitted code to run. This file should not be changed and it has to be included in the submission bundle.
-
-
-In this repository, we include a starter pack containing the templates of the mandatory files ('starter_pack/'). Additionally, we included an example submission bundle with one of the benchmark models published in the [dataset paper]() ('submission_example.zip). Participants are required to submit the files as .zip , similar to the example.
 
