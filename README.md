@@ -3,7 +3,7 @@ Repository with example code for submitting a project to the Una Europa Epilepsy
 
 The challenge submissions are made through the CodaLab platform. Participants must submit 4 mandatory files and any extra scripts required to run the model's evaluation.
 
-In this repository, we include a starter pack containing the templates of the mandatory files ('starter_pack/'). Additionally, we included an example submission bundle with one of the benchmark models published in the [dataset paper](https://openneuro.org/datasets/ds005873/versions/1.0.0) ('submission_example.zip). Participants are required to submit the files as .zip , similar to the example. The scoring program used to evaluate the submissions is presented in the script 'score.py'.
+In this repository, we include a starter pack containing the templates of the mandatory files ('starter_pack/'). Additionally, we included an example submission bundle with one of the benchmark models published in the [dataset paper]() ('submission_example.zip). Participants are required to submit the files as .zip , similar to the example. The scoring program used to evaluate the submissions is presented in the script 'score.py'.
 
 ## Mandatory files:
 - model.py
@@ -19,7 +19,7 @@ In this repository, we include a starter pack containing the templates of the ma
 
 - modalities.txt
   
-  A text file containing the modalities within the SeizeIT2 dataset that are required to be loaded for running the model. Please check the [dataset paper](https://openneuro.org/datasets/ds005873/versions/1.0.0) to see which modalities are available. Take into account that not all recordings contain all modalities. The file should contain the exact name of the modality in lower case in different rows (possible modalities: eeg, ecg, emg, mov).
+  A text file containing the modalities within the SeizeIT2 dataset that are required to be loaded for running the model. Please check the [dataset paper]() to see which modalities are available. Take into account that not all recordings contain all modalities. The file should contain the exact name of the modality in lower case in different rows (possible modalities: eeg, ecg, emg, mov).
 
 - requirements.txt
   
