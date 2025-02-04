@@ -19,7 +19,7 @@ In this repository, we include a starter pack containing the templates of the ma
 
 - modalities.txt
   
-  A text file containing the modalities within the SeizeIT2 dataset that are required to be loaded for running the model. Please check the [dataset paper]() to see which modalities are available. Take into account that not all recordings contain all modalities. The file should contain the exact name of the modality in lower case in different rows (possible modalities: eeg, ecg, emg, mov).
+  A text file containing the modalities within the SeizeIT2 dataset that are required to be loaded for running the model. Please check the [dataset paper](https://arxiv.org/abs/2502.01224) to see which modalities are available. Take into account that not all recordings contain all modalities. The file should contain the exact name of the modality in lower case in different rows (possible modalities: eeg, ecg, emg, mov).
 
 - requirements.txt
   
