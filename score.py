@@ -208,7 +208,7 @@ if __name__ == "__main__":
         gc.collect()
 
     sens_write = np.nanmean(sens_ovlp)
-    fah_write = np.nanmean(fah_epoch_rec)
+    fah_write = np.nanmean(fah_epoch)
     score_write = sens_write*100-0.4*fah_write
 
     print("--- %s seconds ---" % (time.time() - start_time))
